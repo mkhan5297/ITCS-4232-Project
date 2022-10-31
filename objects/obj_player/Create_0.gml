@@ -9,4 +9,7 @@ opponent = noone
 
 state = STATE_FREE
 
+landed = false
+can_attack = true
+atk_type = ATK_P1
 
