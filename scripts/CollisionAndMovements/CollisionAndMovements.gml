@@ -13,7 +13,8 @@ if place_meeting(x+hspd, y, obj_solid) {
 }
 
 //vertical collision
-if place_meeting(x, y +vspd, obj_solid) {
+landed = place_meeting(x, y +vspd, obj_solid)
+if landed {
 	while !place_meeting(x, y+sign(vspd), obj_solid) {
 		y += sign(vspd)
 		

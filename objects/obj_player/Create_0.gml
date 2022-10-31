@@ -9,6 +9,7 @@ opponent = noone
 
 state = STATE_FREE
 
+duck = false
 landed = false
 can_attack = true
 atk_type = ATK_P1

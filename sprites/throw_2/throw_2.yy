@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "FIGHTING GAME",
-    "path": "FIGHTING GAME.yyp",
+    "name": "player2",
+    "path": "folders/Sprites/player2.yy",
   },
   "resourceVersion": "1.0",
   "name": "throw_2",
