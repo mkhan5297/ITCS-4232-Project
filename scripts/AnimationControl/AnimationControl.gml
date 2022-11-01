@@ -22,6 +22,21 @@ function AnimationControl(){
 			
 		}
 		break
+		
+		case STATE_ATTACK:
+		if !can_attack
+			exit
+			
+			if landed {
+				if duck	
+					SetSprite(sp_attack_duck[atk_type])
+				else
+					SetSprite(sp_attack[atk_type])
+			}else {
+				SetSprite(sp_attack_air[atk_type])
+			}
+			can_attack = false
+		break
 	}
 
 }

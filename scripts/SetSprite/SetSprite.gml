@@ -8,6 +8,6 @@ if sprite_index != argument0 {
 	
 }
 
-retrun false
+return false
 
 }

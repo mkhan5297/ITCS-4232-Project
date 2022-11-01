@@ -26,7 +26,29 @@ switch(state) {
 		} else { //in the air
 		
 		}
+		
+		//attacks
+		if keyboard_check_pressed(p1) {
+			SetAttack(ATK_P1) ; break
+		}else if keyboard_check_pressed(p2) {
+			SetAttack(ATK_P2) ; break
+		}else if keyboard_check_pressed(k1) {
+			SetAttack(ATK_K1) ; break
+		}else if keyboard_check_pressed(k2) {
+			SetAttack(ATK_K2) ; break
+		}
 	break
+	
+	case STATE_ATTACK :
+		if landed
+			hspd = 0
+		//return to free state
+		if AnimationEnd()
+			state = STATE_FREE
+	break
+		
+		
+		
 	
 }
 
