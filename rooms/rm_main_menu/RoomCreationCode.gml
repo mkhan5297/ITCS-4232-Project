@@ -1,0 +1,1 @@
+background_color = c_gray;

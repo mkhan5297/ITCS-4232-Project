@@ -2,6 +2,9 @@
 #region //players 
 #macro CHAR_1  0
 #macro CHAR_2  1
+
+
+#macro MAX_CHARS  2
 #endregion
 
 #region Game Variables 

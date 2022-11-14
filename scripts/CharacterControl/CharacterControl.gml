@@ -43,8 +43,13 @@ switch(state) {
 		if landed
 			hspd = 0
 		//return to free state
-		if AnimationEnd()
+		if AnimationEnd(){
+			if duck {
+				sprite_index = sp_duck
+				image_index = image_number -1
+			}
 			state = STATE_FREE
+		}
 	break
 		
 		
