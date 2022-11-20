@@ -14,3 +14,5 @@ landed = false
 can_attack = true
 atk_type = ATK_P1
 
+last_key = noone
+last_key_cd = 0

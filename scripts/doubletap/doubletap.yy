@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Shortcuts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "kcr",
+  "name": "doubletap",
   "tags": [],
   "resourceType": "GMScript",
 }

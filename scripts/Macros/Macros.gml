@@ -12,6 +12,8 @@
 #macro WALK_SPD       2
 #macro SPRINT_SPD     4
 #macro JUMP_FORCE     -10
+
+#macro DBLTAP_CD      20
 #endregion
 
 #region //controllers - player object controllers
@@ -23,7 +25,7 @@
 #region States -- player states
 #macro STATE_FREE  0 // free to do anything
 #macro STATE_ATTACK 1
-
+#macro STATE_SPRINT 2
 #endregion
 
 #region

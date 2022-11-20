@@ -25,3 +25,17 @@ AnimationControl()
 
 //Collision
 CollisionAndMovements()
+
+//check for last key
+check_last_key(right)
+check_last_key(left)
+check_last_key(up)
+check_last_key(down)
+check_last_key(p1)
+check_last_key(p2)
+check_last_key(k1)
+check_last_key(k2)
+
+
+//timers
+last_key_cd ++

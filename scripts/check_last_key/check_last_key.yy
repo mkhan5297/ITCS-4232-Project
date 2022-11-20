@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Shortcuts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "kcp",
+  "name": "check_last_key",
   "tags": [],
   "resourceType": "GMScript",
 }

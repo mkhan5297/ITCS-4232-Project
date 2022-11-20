@@ -1,7 +1,8 @@
 
 function CharacterControl(){
 		
-
+var forward_key = (sign(image_xscale) == 1)?right:left;
+var backward_key = (sign(image_xscale) != 1)?right:left;
 switch(state) {
 	case STATE_FREE:
 		can_attack = true 
@@ -22,6 +23,10 @@ switch(state) {
 				//ducking
 				duck = keyboard_check(down)
 				
+				//sprinting
+				if doubletap(forward_key) {
+					state = STATE_SPRINT;break
+				}
 		
 		} else { //in the air
 		
@@ -51,13 +56,26 @@ switch(state) {
 			state = STATE_FREE
 		}
 	break
+	
+	
+	case STATE_SPRINT:
+		if landed {
+			hspd = SPRINT_SPD * sign(image_xscale)
+		}
+		//return to free state
+		if AnimationEnd(){
+			if !keyboard_check(forward_key){
+				state = STATE_FREE;break
+			}
+		}
+	break
 		
 		
 		
 	
 }
 
-if landed
+if landed and state == STATE_FREE
 	image_xscale = (opponent.x>x)?1:-1
 
 }

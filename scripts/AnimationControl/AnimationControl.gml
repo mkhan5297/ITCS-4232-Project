@@ -37,6 +37,12 @@ function AnimationControl(){
 			}
 			can_attack = false
 		break
+		
+		
+		case STATE_SPRINT:
+			if landed
+				SetSprite(sp_sprint)
+		break
 	}
 
 }
