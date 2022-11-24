@@ -14,6 +14,7 @@
 #macro JUMP_FORCE     -10
 
 #macro DBLTAP_CD      20
+#macro THROW_BACKWARD -1
 #endregion
 
 #region //controllers - player object controllers
@@ -26,6 +27,8 @@
 #macro STATE_FREE  0 // free to do anything
 #macro STATE_ATTACK 1
 #macro STATE_SPRINT 2
+#macro STATE_STEPBACK 3
+#macro STATE_THROW 4
 #endregion
 
 #region

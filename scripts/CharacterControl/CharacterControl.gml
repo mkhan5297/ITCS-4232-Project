@@ -27,6 +27,17 @@ switch(state) {
 				if doubletap(forward_key) {
 					state = STATE_SPRINT;break
 				}
+				
+				//step back
+				if doubletap(backward_key){
+					state = STATE_STEPBACK;break
+				}
+				
+				//throw
+				if keyboard_check_pressed(p1) and keyboard_check_pressed(k1){
+					throw_dir = THROW_BACKWARD
+					state = STATE_THROW;break ;
+				}
 		
 		} else { //in the air
 		
@@ -69,8 +80,19 @@ switch(state) {
 			}
 		}
 	break
+	
+	case STATE_STEPBACK:
+		hspd = -SPRINT_SPD*(sign(image_xscale))
+		if AnimationEnd(){
+			state = STATE_FREE;break	
+		}	
+	break
 		
-		
+	case STATE_THROW:
+		if AnimationEnd() {
+			state = STATE_FREE;break
+		}
+	break
 		
 	
 }

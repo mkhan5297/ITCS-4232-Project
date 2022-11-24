@@ -43,6 +43,15 @@ function AnimationControl(){
 			if landed
 				SetSprite(sp_sprint)
 		break
+		
+		case STATE_STEPBACK:
+			SetSprite(sp_sprint_back)
+		break
+		
+		case STATE_THROW:
+			if landed
+				SetSprite(sp_throw)
+		break
 	}
 
 }
