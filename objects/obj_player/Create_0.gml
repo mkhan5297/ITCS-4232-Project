@@ -16,3 +16,6 @@ atk_type = ATK_P1
 throw_dir = THROW_BACKWARD
 last_key = noone
 last_key_cd = 0
+
+//stats
+hp = 200;

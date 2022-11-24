@@ -45,7 +45,8 @@ function AnimationControl(){
 		break
 		
 		case STATE_STEPBACK:
-			SetSprite(sp_sprint_back)
+			if landed 
+				SetSprite(sp_sprint_back)
 		break
 		
 		case STATE_THROW:

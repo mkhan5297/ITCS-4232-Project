@@ -15,6 +15,8 @@
 
 #macro DBLTAP_CD      20
 #macro THROW_BACKWARD -1
+
+#macro MAX_HP		200
 #endregion
 
 #region //controllers - player object controllers
