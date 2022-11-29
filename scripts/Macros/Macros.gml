@@ -14,7 +14,7 @@
 #macro JUMP_FORCE     -10
 
 #macro DBLTAP_CD      20
-#macro THROW_BACKWARD -1
+#macro THROW_BACKWARD 0
 
 #macro MAX_HP		200
 #endregion
@@ -31,6 +31,7 @@
 #macro STATE_SPRINT 2
 #macro STATE_STEPBACK 3
 #macro STATE_THROW 4
+#macro STATE_HURT  5
 #endregion
 
 #region

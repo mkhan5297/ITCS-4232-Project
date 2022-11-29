@@ -15,8 +15,12 @@ landed = false
 can_attack = true
 atk_type = ATK_P1
 throw_dir = THROW_BACKWARD
+
 last_key = noone
 last_key_cd = 0
+
+hit_base_id = -10
+last_hit_id = 10
 
 //stats
 hp = 200;

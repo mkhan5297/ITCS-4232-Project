@@ -80,6 +80,7 @@ switch(state) {
 				sprite_index = sp_duck
 				image_index = image_number -1
 			}
+			RandomizeBaseId()
 			state = STATE_FREE
 		}
 	break
@@ -107,6 +108,17 @@ switch(state) {
 	case STATE_THROW:
 		if AnimationEnd() {
 			state = STATE_FREE;break
+			RandomizeBaseId()
+		}
+	break
+	
+	case STATE_HURT:
+		if landed {
+			if AnimationEnd(){
+				state = STATE_FREE
+				break
+			}
+			
 		}
 	break
 		

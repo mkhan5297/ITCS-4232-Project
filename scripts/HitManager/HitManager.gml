@@ -11,7 +11,8 @@ switch(state) {
 				for (var i = 0; i < array_length_1d(indexes); i++ ){
 					if round(image_index) == indexes[i] {
 						//create hit object
-						CreateHit(self, noone, 4, 50*sign(image_xscale), 20)
+						var h = CreateHit(self, noone, 4, 50*sign(image_xscale), 20)
+						h._id = hit_base_id*round(image_index)
 					}
 				}
 			}else {// normal indexes
@@ -20,7 +21,8 @@ switch(state) {
 				for (var i = 0; i < array_length_1d(indexes); i++ ){
 					if round(image_index) == indexes[i] {
 						//create hit object
-						CreateHit(self, noone, 4, 50*sign(image_xscale), 70)
+						var h = CreateHit(self, noone, 4, 50*sign(image_xscale), 70)
+						h._id = hit_base_id*round(image_index)
 					}
 				}
 				
@@ -31,12 +33,26 @@ switch(state) {
 				for (var i = 0; i < array_length_1d(indexes); i++ ){
 					if round(image_index) == indexes[i] {
 						//create hit object
-						CreateHit(self, noone, 4, 50*sign(image_xscale), 50)
+						var h = CreateHit(self, noone, 4, 50*sign(image_xscale), 40)
+						h._id = hit_base_id*round(image_index)
 					}
 				}
 			
 			
 		}
+	break
+	
+	case STATE_THROW:
+		var indexes = throw_index[throw_dir];
+				
+				for (var i = 0; i < array_length_1d(indexes); i++ ){
+					if round(image_index) == indexes[i] {
+						//create hit object
+						var h = CreateHit(self, noone, 4, 50*sign(image_xscale), 70)
+						h._id = hit_base_id*round(image_index)
+					}
+				}
+		
 	break
 }
 

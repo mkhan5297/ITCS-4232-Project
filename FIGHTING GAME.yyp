@@ -66,6 +66,7 @@
     {"id":{"name":"SetAttack","path":"scripts/SetAttack/SetAttack.yy",},"order":6,},
     {"id":{"name":"crouch_light_kick_2","path":"sprites/crouch_light_kick_2/crouch_light_kick_2.yy",},"order":2,},
     {"id":{"name":"p2_portrait","path":"sprites/p2_portrait/p2_portrait.yy",},"order":1,},
+    {"id":{"name":"RandomizeBaseId","path":"scripts/RandomizeBaseId/RandomizeBaseId.yy",},"order":10,},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":1,},
     {"id":{"name":"crouch_heavy_punch_2","path":"sprites/crouch_heavy_punch_2/crouch_heavy_punch_2.yy",},"order":1,},
     {"id":{"name":"jump_light_kick_2","path":"sprites/jump_light_kick_2/jump_light_kick_2.yy",},"order":1,},

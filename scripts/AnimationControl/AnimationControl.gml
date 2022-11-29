@@ -61,6 +61,12 @@ function AnimationControl(){
 			if landed
 				SetSprite(sp_throw)
 		break
+		
+		case STATE_HURT:
+			if landed {
+				SetSprite(duck?sp_low_hurt:sp_high_hurt)	
+			}
+		break
 	}
 
 }

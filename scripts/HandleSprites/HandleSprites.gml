@@ -15,6 +15,12 @@ switch (argument0) {
 		sp_turn = standing_turn_1
 		sp_crouch_turn = crouch_turn_1
 		
+		//hurt sprites
+		sp_high_hurt = high_hit_1
+		sp_low_hurt = low_hit_1
+		sp_thrown = throwback_1
+		
+		
 		//attacks
 		sp_attack      = [light_punch_1, heavy_punch_1, light_kick_1, heavy_kick_1]
 		attack_indexes = [[1], [4], [2], [4]]
@@ -40,6 +46,11 @@ switch (argument0) {
 		sp_sprint_back = run_back_2
 		sp_turn = standing_turn_2
 		sp_crouch_turn = crouch_turn_2
+		
+		//hurt sprites
+		sp_high_hurt = high_hit_2
+		sp_low_hurt = low_hit_2
+		sp_thrown = throwback_2
 		
 		//attacks
 		sp_attack      = [light_punch_2, heavy_punch_2, light_kick_2, heavy_kick_2]
