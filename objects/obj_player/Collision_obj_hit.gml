@@ -16,7 +16,7 @@ if landed {
 	state = STATE_HURT
 }
 if !landed {
-	vspd =- JUMP_FORCE
+	vspd = -5
 	hspd = -SPRINT_SPD*sign(image_xscale)
 }
 with other
