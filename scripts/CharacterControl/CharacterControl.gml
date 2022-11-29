@@ -7,7 +7,23 @@ switch(state) {
 	case STATE_FREE:
 		can_attack = true 
 		
-		if landed {
+			if landed {
+				//turn
+				if !turning and opponent.x != x
+					turning = (sign(opponent.x-x) == sign(image_xscale)) ?false:true
+				
+				if turning {
+					if AnimationEnd() {
+						turning = false
+						image_xscale =- image_xscale
+						if duck {
+							sprite_index = sp_duck
+							image_index = image_number-1
+						}
+					}
+				}
+				
+				
 				if !duck
 					hspd = WALK_SPD * (keyboard_check(right) - keyboard_check(left))
 				else 
@@ -97,7 +113,7 @@ switch(state) {
 	
 }
 
-if landed and state == STATE_FREE
+ /*if landed and state == STATE_FREE
 	image_xscale = (opponent.x>x)?1:-1
-
+ */
 }

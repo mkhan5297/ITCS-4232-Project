@@ -12,6 +12,8 @@ switch (argument0) {
 		sp_jump = jump_1
 		sp_sprint = run_forward_1
 		sp_sprint_back = run_back_1
+		sp_turn = standing_turn_1
+		sp_crouch_turn = crouch_turn_1
 		
 		//attacks
 		sp_attack      = [light_punch_1, heavy_punch_1, light_kick_1, heavy_kick_1]
@@ -36,6 +38,9 @@ switch (argument0) {
 		sp_jump = jump_2
 		sp_sprint = run_forward_2
 		sp_sprint_back = run_back_2
+		sp_turn = standing_turn_2
+		sp_crouch_turn = crouch_turn_2
+		
 		//attacks
 		sp_attack      = [light_punch_2, heavy_punch_2, light_kick_2, heavy_kick_2]
 		attack_indexes   = [[1], [2, 8], [2], [3]]

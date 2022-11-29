@@ -1,6 +1,7 @@
 hspd = 0
 vspd = 0
 grv = GRAVITY_FORCE
+turning = false
 
 character = CHAR_1
 controller = CONT_P1 

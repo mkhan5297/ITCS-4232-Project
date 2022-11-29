@@ -5,12 +5,20 @@ function AnimationControl(){
 		if landed {
 			if !duck {
 				if hspd == 0
-					SetSprite(sp_idle)
+					SetSprite(turning?sp_turn:sp_idle)
 				else
-					sprite_index = (sign(hspd) == sign(image_xscale))?sp_forward:sp_backward
+					if !turning
+						sprite_index = (sign(hspd) == sign(image_xscale))?sp_forward:sp_backward
+					else
+						SetSprite(sp_turn)
 			}else{ // duck animation
-				if !SetSprite(sp_duck)
+				if turning{
+					SetSprite(sp_crouch_turn)
+				}else {
+					if !SetSprite(sp_duck)
 					FreezeLastFrame()
+				}
+				
 			}
 			
 		
