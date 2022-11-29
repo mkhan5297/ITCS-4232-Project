@@ -23,6 +23,9 @@ CharacterControl()
 //Animation Control
 AnimationControl()
 
+//Hit Manager
+HitManager()
+
 //Collision
 CollisionAndMovements()
 
