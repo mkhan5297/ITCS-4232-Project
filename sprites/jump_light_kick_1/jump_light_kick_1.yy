@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player1",
-    "path": "folders/Sprites/player1.yy",
+    "name": "Jump",
+    "path": "folders/Sprites/player1/Attacks/Jump.yy",
   },
   "resourceVersion": "1.0",
   "name": "jump_light_kick_1",

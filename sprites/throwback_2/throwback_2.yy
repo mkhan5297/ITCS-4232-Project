@@ -105,8 +105,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player2",
-    "path": "folders/Sprites/player2.yy",
+    "name": "Hurt",
+    "path": "folders/Sprites/player2/Hurt.yy",
   },
   "resourceVersion": "1.0",
   "name": "throwback_2",

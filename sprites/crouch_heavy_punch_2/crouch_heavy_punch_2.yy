@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player2",
-    "path": "folders/Sprites/player2.yy",
+    "name": "Crouch",
+    "path": "folders/Sprites/player2/Attacks/Crouch.yy",
   },
   "resourceVersion": "1.0",
   "name": "crouch_heavy_punch_2",

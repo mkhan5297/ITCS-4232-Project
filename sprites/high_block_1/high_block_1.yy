@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player1",
-    "path": "folders/Sprites/player1.yy",
+    "name": "Gaurd",
+    "path": "folders/Sprites/player1/Gaurd.yy",
   },
   "resourceVersion": "1.0",
   "name": "high_block_1",

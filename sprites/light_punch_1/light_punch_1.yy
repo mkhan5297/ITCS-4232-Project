@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player1",
-    "path": "folders/Sprites/player1.yy",
+    "name": "Standing",
+    "path": "folders/Sprites/player1/Attacks/Standing.yy",
   },
   "resourceVersion": "1.0",
   "name": "light_punch_1",

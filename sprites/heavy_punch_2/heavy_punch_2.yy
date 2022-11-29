@@ -117,8 +117,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player2",
-    "path": "folders/Sprites/player2.yy",
+    "name": "Standing",
+    "path": "folders/Sprites/player2/Attacks/Standing.yy",
   },
   "resourceVersion": "1.0",
   "name": "heavy_punch_2",
