@@ -145,6 +145,7 @@ switch(state) {
 	case STATE_LOSE:
 		if AnimationEnd(){
 			image_index = 4
+			hspd = 0
 		}
 	break
 	
