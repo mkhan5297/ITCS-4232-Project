@@ -1,0 +1,34 @@
+Menu Controls:
+W = Up
+S = Down
+J = Select
+
+Character Select Controls:
+Player 1:
+A = Left
+D = Right
+J = Select
+
+Player 2:
+Left Arrow = Left
+Right Arrow = Right
+NUMPAD1 = Select
+
+Game Controls:
+ESC to return to main menu
+
+PLAYER 1 CONTROLS:
+WASD MOVEMENT
+U = Light Punch
+I = Light Kick
+J = Heavy Punch
+K = Heavy Kick
+U+I = Throw
+
+PLAYER 2 CONTROLS:
+ARROW KEY MOVEMENT
+NUMPAD4 = Light Punch
+NUMPAD5 = Light Kick
+NUMPAD1 = Heavy Punch
+NUMPAD2 = Heavy Kick	
+NUMPAD4+NUMPAD5 = Throw
