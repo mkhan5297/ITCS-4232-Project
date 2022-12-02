@@ -3,29 +3,30 @@ var width = room_width/2;
 draw_set_font(fnt_main)
 draw_set_halign(fa_center)
 draw_set_color(c_yellow)
-draw_text(width ,100, "Character Select");
+draw_text(width ,50, "Character Select");
 draw_set_halign(fa_left)
 
 
 for (var i = 0; i < MAX_CHARS; i++){
-	draw_sprite(icons[i], 0, 64+64*i, 100);
+	draw_sprite(icons[i], 0,(width/2)+50 +64+64*i , 100);
 	
 	if i == p1_index {
 		draw_set_color(c_green)
-		draw_text(100+64*i, 100, "P1")
+		draw_text((width/2)+140 +64*i, 100, "P1")
 		draw_set_color(c_white)
 	}
 	
 	
 	if i == p2_index {
 		draw_set_color(c_blue)
-		draw_text(100+64*i, 120, "P2")
+		draw_text((width/2)+140 +64*i, 120, "P2")
 		draw_set_color(c_white)
 	}
 }
 
 if p1_ready and p2_ready 
-	draw_text(315, 150, "GET READY");
+	draw_text(315, 300, "GET READY");
+	
 	
 
 //draw portraits

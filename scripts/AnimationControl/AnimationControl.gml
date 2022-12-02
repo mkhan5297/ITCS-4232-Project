@@ -88,6 +88,14 @@ function AnimationControl(){
 				SetSprite(duck?sp_block_l:sp_block_h)
 			}
 		break
+		
+		case STATE_LOSE:
+			SetSprite(sp_lose)
+		break
+		
+		case STATE_WIN:
+			SetSprite(sp_win)
+		break
 	}
 
 }

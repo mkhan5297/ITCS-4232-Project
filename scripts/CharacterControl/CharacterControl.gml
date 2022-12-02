@@ -106,6 +106,8 @@ switch(state) {
 	break
 		
 	case STATE_THROW:
+		if landed
+			hspd = 0
 		if AnimationEnd() {
 			state = STATE_FREE;break
 			RandomizeBaseId()
@@ -137,6 +139,18 @@ switch(state) {
 			}
 			state = STATE_FREE
 			break
+		}
+	break
+	
+	case STATE_LOSE:
+		if AnimationEnd(){
+			image_index = 4
+		}
+	break
+	
+	case STATE_WIN:
+		if AnimationEnd(){
+			image_index = 3	
 		}
 	break
 }

@@ -14,11 +14,13 @@ switch (argument0) {
 		sp_sprint_back = run_back_1
 		sp_turn = standing_turn_1
 		sp_crouch_turn = crouch_turn_1
+		sp_win = win_1
 		
 		//hurt sprites
 		sp_high_hurt = high_hit_1
 		sp_low_hurt = low_hit_1
 		sp_ko = throwback_1
+		sp_lose = ko_1
 		
 		
 		//blocks
@@ -50,11 +52,13 @@ switch (argument0) {
 		sp_sprint_back = run_back_2
 		sp_turn = standing_turn_2
 		sp_crouch_turn = crouch_turn_2
+		sp_win = win_2
 		
 		//hurt sprites
 		sp_high_hurt = high_hit_2
 		sp_low_hurt = low_hit_2
 		sp_ko = throwback_2
+		sp_lose = ko_2
 		
 		//blocks
 		sp_block_h = high_block_2

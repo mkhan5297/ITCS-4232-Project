@@ -33,6 +33,8 @@
 #macro STATE_THROW 4
 #macro STATE_HURT  5
 #macro STATE_BLOCK 6
+#macro STATE_LOSE 7
+#macro STATE_WIN 8
 #endregion
 
 #region

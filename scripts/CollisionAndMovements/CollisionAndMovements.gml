@@ -24,6 +24,8 @@ if landed {
 
 x+=hspd
 y+=vspd
+if distance_to_object(opponent) > room_width/2-100
+	x -=hspd
 
 
 }

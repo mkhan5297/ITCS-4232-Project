@@ -27,7 +27,7 @@ if state == STATE_BLOCK
 last_hit_id = other._id
 
 //damage player
-hp -= other.dmg
+hp -= 10
 
 //check for effect
 switch(other.effect) {
