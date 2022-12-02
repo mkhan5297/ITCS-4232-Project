@@ -24,3 +24,5 @@ with p1
 	
 with p2
 	HandleSprites(character)
+	
+	

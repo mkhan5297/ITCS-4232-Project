@@ -63,8 +63,29 @@ function AnimationControl(){
 		break
 		
 		case STATE_HURT:
+			switch(dmg_state) {
+				case EFF_NONE:
+					if landed {
+						SetSprite(duck?sp_low_hurt:sp_high_hurt)	
+					}
+				break
+				
+				case EFF_KNOCKBACK:
+					if landed {
+						SetSprite(sp_ko)	
+					}
+				break
+				
+				case EFF_KNOCKUP:
+				
+				break
+			}
+			
+		break
+		
+		case STATE_BLOCK:
 			if landed {
-				SetSprite(duck?sp_low_hurt:sp_high_hurt)	
+				SetSprite(duck?sp_block_l:sp_block_h)
 			}
 		break
 	}

@@ -18,8 +18,12 @@ switch (argument0) {
 		//hurt sprites
 		sp_high_hurt = high_hit_1
 		sp_low_hurt = low_hit_1
-		sp_thrown = throwback_1
+		sp_ko = throwback_1
 		
+		
+		//blocks
+		sp_block_h = high_block_1
+		sp_block_l = low_block_1
 		
 		//attacks
 		sp_attack      = [light_punch_1, heavy_punch_1, light_kick_1, heavy_kick_1]
@@ -50,7 +54,11 @@ switch (argument0) {
 		//hurt sprites
 		sp_high_hurt = high_hit_2
 		sp_low_hurt = low_hit_2
-		sp_thrown = throwback_2
+		sp_ko = throwback_2
+		
+		//blocks
+		sp_block_h = high_block_2
+		sp_block_l = low_block_2
 		
 		//attacks
 		sp_attack      = [light_punch_2, heavy_punch_2, light_kick_2, heavy_kick_2]

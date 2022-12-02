@@ -9,6 +9,7 @@ controller = CONT_P1
 opponent = noone
 
 state = STATE_FREE
+dmg_state = EFF_NONE
 
 duck = false
 landed = false

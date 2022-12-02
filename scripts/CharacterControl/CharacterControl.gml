@@ -115,6 +115,11 @@ switch(state) {
 	case STATE_HURT:
 		if landed {
 			if AnimationEnd(){
+				if duck {
+					sprite_index = sp_duck
+					image_index = image_number-1
+				}
+				dmg_state = EFF_NONE
 				state = STATE_FREE
 				break
 			}
@@ -122,10 +127,19 @@ switch(state) {
 		}
 	break
 		
-	
+	case STATE_BLOCK:
+		if landed
+			hspd = 0
+		if AnimationEnd() {
+			if duck {
+				sprite_index = sp_duck
+				image_index = image_number-1
+			}
+			state = STATE_FREE
+			break
+		}
+	break
 }
 
- /*if landed and state == STATE_FREE
-	image_xscale = (opponent.x>x)?1:-1
- */
+ 
 }

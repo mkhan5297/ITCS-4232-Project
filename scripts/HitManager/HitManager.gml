@@ -13,6 +13,7 @@ switch(state) {
 						//create hit object
 						var h = CreateHit(self, noone, 4, 50*sign(image_xscale), 20)
 						h._id = hit_base_id*round(image_index)
+						h.low = true
 					}
 				}
 			}else {// normal indexes
@@ -50,6 +51,10 @@ switch(state) {
 						//create hit object
 						var h = CreateHit(self, noone, 4, 50*sign(image_xscale), 70)
 						h._id = hit_base_id*round(image_index)
+						if i == array_length_1d(indexes)-1{
+							//add effect to the last hit
+							h.effect = EFF_KNOCKBACK
+						}
 					}
 				}
 		

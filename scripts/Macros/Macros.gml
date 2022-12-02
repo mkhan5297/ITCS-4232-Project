@@ -32,6 +32,7 @@
 #macro STATE_STEPBACK 3
 #macro STATE_THROW 4
 #macro STATE_HURT  5
+#macro STATE_BLOCK 6
 #endregion
 
 #region
@@ -39,5 +40,12 @@
 #macro ATK_P2 1
 #macro ATK_K1 2
 #macro ATK_K2 3
+
+#endregion
+
+#region
+#macro EFF_NONE 0
+#macro EFF_KNOCKUP 1
+#macro EFF_KNOCKBACK 2
 
 #endregion
