@@ -21,5 +21,5 @@ if p2.hp == 0{
 
 //return to main menu
 if keyboard_check_pressed(vk_escape){
-	room_goto(1)
+	room_goto(rm_main_menu)
 }
